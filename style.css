@@ -7,9 +7,7 @@ body {
 .forheader {
   display: inline-block;
   width: 100%;
-  /* position: fixed; */
   margin-bottom: 10px;
-  /* background-color: aliceblue; */
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), black);
 }
 .activelogo {
@@ -570,24 +568,14 @@ hr {
   margin-bottom: 1%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .activelogo {
-    width: 120px;
+    width: 70px;
     padding-left: 5%;
   }
   .navbar {
-    /* flex: 1; */
     display: none;
-    /* float: right;
-    padding-right: 5%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.3); */
   }
-  /* .navbar div {
-    margin: 5px;
-    text-transform: uppercase;
-    padding-right: 15px;
-  } */
   #first {
     width: 100%;
     height: 250px;
@@ -598,22 +586,13 @@ hr {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), black);
   }
   .back-video {
-    position: absolute;
+    /* position: absolute; */
     right: 0;
-    bottom: 0;
     z-index: -1;
     width: 100vw;
-    /* height: 100vh; */
+    height: 400px;
+    top: -90px;
     background-color: rgba(0, 0, 0, 0.3);
-    top: -30px;
-  }
-
-  #first div {
-    /* float: right; */
-    /* width: 50%; */
-    /* padding: 7% 5% 2% 5%; */
-    /* animation: example 5s infinite; */
-    /* position: relative; */
   }
   .for-all {
     color: blue;
@@ -623,16 +602,6 @@ hr {
     color: rgb(252, 94, 32);
     font-size: larger;
   }
-  /* div {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-   
-   
-   
-   
-  } */
-
   @keyframes example {
     0% {
       color: white;
